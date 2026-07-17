@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-image: radial-gradient(circle, #758CFF 0%, #3856EB 100%);
+    color: #000000;
+    font-weight: 400;
+}
+
+.site {
+    margin: 50px;
+}
+
+.nav-container {
+  display: flex; 
+  gap: 15px;
+}
+
+.nav-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 80px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #A1B0FF;
+  border: 2px solid #000000;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.to-sth-btn {
+  width: max-content;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #1429F7;
+  border: 2px solid #000000;
+  color: #FFFFFF;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.angebot {
+    display: none;
+}
