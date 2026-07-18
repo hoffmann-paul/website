@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termin Vereinbaren</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="app.js"  defer></script>
+</head>
+    <body>
+        <header>
+            <div class="nav-container">
+                <div class="spacer"></div>
+                <a href="index.html" ><button class="nav-button">Startseite</button></a>
+                <a href="angebote.html"><button class="nav-button">Angebote</button></a>
+                <a href="kontakt.html" style="margin-right: 10px;"><button class="nav-button">Kontakt</button></a>
+            </div>
+        </header>
+
+        <h1>Kontaktformular</h1>
+
+        <form action="https://formspree.io/f/mnjedjgw" method="POST">
+            <label class="formlabel">
+                Ihre E-Mail:
+                <br>
+                <input type="email" name="mail">
+            </label>
+            <label class="formlabel">
+                Welchen Dienst wollen sie in Anspruch nehmen?
+                <br>
+                <input type="text" name="dienst"></input>
+            </label>
+            <label class="formlabel">
+                Wann?
+                <br>
+                <input type="datetime-local" name="datum"></label>
+            </label>
+            <button class="to-sth-btn" type="submit">Absenden</button>
+        </form>
+    </body>
+</html>
