@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    document.getElementById("contactForm").action = FORM_ENDPOINT;
-    
     document.getElementById("laubrechen-card").style.display = "none";
     document.getElementById("rasenmähen-card").style.display = "none";
 });
