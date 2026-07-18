@@ -1,28 +1,36 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    background-image: radial-gradient(circle, #758CFF 0%, #3856EB 100%);
-    color: #000000;
+    background-color: #000000;
+    color: #FFFFFF;
     font-weight: 400;
 }
 
 .site {
-    margin: 50px;
+    margin: auto;
 }
 
 .nav-container {
-  display: flex; 
-  gap: 15px;
+    display: flex; 
+    gap: 15px;
+    background-color: #FCA46D;
+    height: auto;
+    margin: auto;
 }
 
 .nav-button {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 80px;
-  height: 30px;
-  border-radius: 50px;
-  background-color: #A1B0FF;
-  border: 2px solid #000000;
+    margin: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: 0.3s ease;
+}
+
+.nav-button:hover {
+    transform: scale(1.2);
 }
 
 .spacer {
@@ -30,16 +38,33 @@ body {
 }
 
 .to-sth-btn {
-  width: max-content;
-  height: 40px;
-  border-radius: 10px;
-  background-color: #1429F7;
-  border: 2px solid #000000;
-  color: #FFFFFF;
-  font-weight: 800;
-  padding: 10px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FC8B44;
+    border: 2px solid #000000;
+    color: #000000;
+    font-weight: 800;
+    padding: 10px;
+    transition: 0.3s ease;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.to-sth-btn:hover {
+    transform: scale(1.2);
 }
 
 .angebot {
     display: none;
+    background-color: #F2BA96;
+    color: #000000;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.formlabel {
+    display: block;
+    margin-top: 15px;
+    padding-top: 5px;
 }
